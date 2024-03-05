@@ -1,0 +1,32 @@
+name: Node.js App Build and Deploy
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: |
+        npm install
+
+    - name: Build application
+      run: |
+        npm run build
+
+    - name: Deploy application
+      run: |
+        # Add deployment commands here
+        echo "Deploying the Node.js application..."
+
+    - name: Trigger Jenkins
+      uses: backstage/jenkins-backend@v1
+      with:
+        url: 'https://bb-jenkins.bonbloc.in'
