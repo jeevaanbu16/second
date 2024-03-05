@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "second"
   annotations:
-    jenkins.io/job-full-name: Node.js App Build and Deploy/Node.js App Build and Deploy
+    jenkins.io/job-full-name: Node.js/*
 spec:
   type: service
   owner: user:guest
