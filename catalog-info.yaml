@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "second"
+  annotations:
+    jenkins.io/job-full-name: Node.js App Build and Deploy/Node.js App Build and Deploy
 spec:
   type: service
   owner: user:guest
