@@ -24,7 +24,7 @@ jobs:
     - name: Deploy application
       run: |
         # Add deployment commands here
-        echo "Deploying the Node.js application..."
+        echo "Deploying the Node.js applications..."
 
     - name: Trigger Jenkins
       uses: backstage/jenkins-backend@v1
