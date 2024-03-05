@@ -1,4 +1,4 @@
-name: Node.js App Build and Deploy
+name: Node.js
 
 on:
   push:
