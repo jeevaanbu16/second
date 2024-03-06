@@ -27,6 +27,6 @@ jobs:
         echo "Deploying the Node.js applications..."
 
     - name: Trigger Jenkins
-      uses: backstage/jenkins-backend@v1
+      uses: backstage/plugin-jenkins@0.9.5
       with:
         url: 'https://bb-jenkins.bonbloc.in'
