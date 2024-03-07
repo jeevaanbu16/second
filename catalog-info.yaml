@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "second"
   annotations:
-    jenkins.io/job-full-name: "Node.js/second"
+    jenkins.io/job-full-name: "backstage/second"
 spec:
   type: service
   owner: user:guest
